@@ -7,7 +7,7 @@
 		<specification>SUSE Linux Enterprise 15 SP4 JeOS</specification>
 	</description>
 	<preferences>
-		<type image="pxe" boot="saltboot/suse-SLES11" filesystem="ext3">
+		<type image="pxe" boot="/boot" filesystem="ext3">
 			<size unit="M" additive="true">0</size>
 		</type>
 		<version>6.0.0</version>
